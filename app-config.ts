@@ -22,18 +22,18 @@ export interface AppConfig {
 export const APP_CONFIG_DEFAULTS: AppConfig = {
   companyName: 'GameGhor',
   pageTitle: 'AgentLoki Masum\'s Personal Assistant',
-  pageDescription: 'Your personal assistant powered by AI',
+  pageDescription: 'Personal assistant of Nur Hasan Masum',
 
   supportsChatInput: true,
   supportsVideoInput: true,
   supportsScreenShare: true,
   isPreConnectBufferEnabled: true,
 
-  logo: '/lk-logo.svg',
+  logo: '/icon.gif',
   accent: '#002cf2',
-  logoDark: '/lk-logo-dark.svg',
+  logoDark: '/icon.gif',
   accentDark: '#1fd5f9',
-  startButtonText: 'Start call',
+  startButtonText: 'Lets Talk',
 
   // for LiveKit Cloud Sandbox
   sandboxId: undefined,
