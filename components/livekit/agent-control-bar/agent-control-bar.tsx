@@ -63,7 +63,6 @@ export function AgentControlBar({
       // send may be unavailable if the data channel isn't open or permissions
       // weren't granted. Log and short-circuit to avoid throwing in the UI.
       // The ChatInput already handles UI state for sending.
-      // eslint-disable-next-line no-console
       console.warn('Chat send function is unavailable. Message not sent:', message);
       return;
     }
@@ -73,7 +72,6 @@ export function AgentControlBar({
       // Promise.resolve so we can safely await either.
       await Promise.resolve(send(message));
     } catch (error) {
-      // eslint-disable-next-line no-console
       console.error('Failed to send chat message:', error);
     }
   };
