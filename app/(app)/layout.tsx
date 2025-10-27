@@ -28,7 +28,8 @@ export default async function Layout({ children }: LayoutProps) {
           />
         </a>
         <span className="text-foreground font-mono text-xs font-bold tracking-wider uppercase">
-          Personal Assistant of <a
+          Personal Assistant of{' '}
+          <a
             target="_blank"
             rel="noopener noreferrer"
             href="https://masumhasan.github.io"
